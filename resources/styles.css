@@ -1,0 +1,202 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0;
+}
+
+/* Text Properties */
+h1 {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: bold;
+    font-size: 2.2rem;
+    color: #525b60;
+}
+
+h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.2rem
+}
+
+/* Header */
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    background-color: #5e7c4a;
+}
+
+header ul {
+    margin: 1rem auto;
+    padding: 0 1rem;
+    text-align: center;
+}
+
+header ul li {
+    display: inline-block;
+    padding: 0.5rem;
+    width: 20rem;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1.4rem;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #e1e2e7;
+}
+
+header li:hover {
+    background-color: #7e9e5d;
+}
+
+/* Main */
+main {
+    top: 70.4px;
+    height: 100rem;
+    background-image: url("./images/main-background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-color:#75838a;
+}
+
+
+/* Homepage */
+#main-banner {
+    position: fixed;
+    display: inline-block;
+    right: 0;
+    text-align: center;
+    margin-top: 10rem;
+    margin-right: 3rem;
+    padding: 0.5rem 1.5rem;
+    background-color: hsla(230, 11%, 89%, 0.4);
+}
+
+
+/* Page Section Elements */
+.page-body {
+    position: fixed;
+    top: 9rem;
+    left: 4rem;
+    width: 90%;
+    padding: 1.5rem;
+    background-color: hsla(230, 11%, 89%, 0.4);
+}
+
+.color-scheme {
+    height: 40%;
+}
+
+/* Color Schemes Page */
+
+.color-container {
+    width: 100%;
+}
+
+.color-panel {
+    display: inline-block;
+    width: 24%;
+    text-align: center;
+}
+
+.gray-sky {
+    background-color: #e1e2e7;
+    color: #5e7c4a;
+}
+
+.dark-gray-sky {
+    background-color: #525b60;
+    color: #e1e2e7;
+}
+
+.wood-green {
+    background-color: #5e7c4a;
+    color: #e1e2e7;
+}
+
+.khaki-green {
+    background-color: #7e9e5d;
+    color: #e1e2e7;
+}
+
+/* Font Families Page */
+.font-container {
+    width: 100%;
+}
+
+.font-panel {
+    display: inline-block;
+    width: 32%;
+}
+
+.font-josefin-sans {
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.font-montserrat {
+    font-family: "Montserrat", sans-serif;
+}
+
+.font-source-code-pro {
+    font-family: "Source Code Pro", monospace;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+/* Text Standards Page */
+.text-container {
+    width: 100%;
+}
+
+.text-container h1 {
+    color: #000;
+}
+
+.text-panel {
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+}
+
+.text-panel li {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.2rem;
+}
+
+/* Footer */
+footer {
+    background-color: #5e7c4a;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 0.5rem 0;
+}
+
+footer small {
+    display: inline;
+    font-family: "Montserrat", sans-serif;
+    color: #e1e2e7;
+    margin: 0 1rem;
+}
